@@ -40,15 +40,17 @@ $(function () {
 
 
     // TODO 3 - Create Collectables
-    createCollectable("diamond", 375, 500);
-    createCollectable("kennedi", 500, 650);
-    creatcollectable("grace", 800, 300);
+    createCollectable("diamond", 400, 475);
+    createCollectable("kennedi", 500, 600);
+    createCollectable("grace", 800, 250);
 
 
 
     
     // TODO 4 - Create Cannons
-
+    createCannon("bottom", 700, 900);
+    createCannon("left", 400, 1300); 
+    createCannon("top", 1000, 700); 
 
     
     
@@ -59,3 +61,4 @@ $(function () {
 
   registerSetup(setup);
 });
+
